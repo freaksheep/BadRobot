@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="bluetooth"
+        android:summary="@string/pref_bt_summary"
+        android:title="@string/pref_title_bt_initmode" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/layout_types"
+        android:entryValues="@array/layout_types_vals"
+        android:key="layouts"
+        android:title="@string/layout_types" />
+
+    <PreferenceCategory android:title="@string/category_motor" >
+        <ListPreference
+            android:entries="@array/motor_port_key"
+            android:entryValues="@array/motor_port_value"
+            android:key="motorLeft"
+            android:title="@string/motor_left" />
+        <ListPreference
+            android:entries="@array/motor_port_key"
+            android:entryValues="@array/motor_port_value"
+            android:key="motorRight"
+            android:title="@string/motor_right" />
+        <ListPreference
+            android:entries="@array/motor_port_key"
+            android:entryValues="@array/motor_port_value"
+            android:key="motorAux"
+            android:title="@string/motor_aux" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_sensor" >
+        <ListPreference
+            android:entries="@array/sensor_mode_key"
+            android:entryValues="@array/sensor_mode_value"
+            android:title="@string/port_0" />
+        <ListPreference
+            android:entries="@array/sensor_mode_key"
+            android:entryValues="@array/sensor_mode_value"
+            android:title="@string/port_1" />
+        <ListPreference
+            android:entries="@array/sensor_mode_key"
+            android:entryValues="@array/sensor_mode_value"
+            android:title="@string/port_2" />
+        <ListPreference
+            android:entries="@array/sensor_mode_key"
+            android:entryValues="@array/sensor_mode_value"
+            android:title="@string/port_3" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

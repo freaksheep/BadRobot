@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.freaksheep.badrobot.MainActivity$MainFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:gravity="right"
+                android:text="@string/touch_text_collision"
+                android:textColor="@color/blueColor" />
+
+            <TextView
+                android:id="@+id/touch_number_collision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/touch_number_collision"
+                android:textColor="@color/blueColor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:gravity="right"
+                android:text="@string/sonar_text_collision"
+                android:textColor="@color/blueColor" />
+
+            <TextView
+                android:id="@+id/sonar_number_collision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/sonar_number_collision"
+                android:textColor="@color/blueColor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+	<include
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_marginLeft="0dp"
+	    android:layout_weight="2"
+	    layout="@layout/fragment_controller_buttons" />
+
+	<include
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    layout="@layout/fragment_controller_accelerometer" />
+
+    </LinearLayout>

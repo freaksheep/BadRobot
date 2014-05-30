@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="layout_types">
+        <item >@string/acc_only_mode</item>
+        <item >@string/buttons_only_mode</item>
+        <item >@string/mix_mode</item>
+    </string-array>
+     <string-array name="layout_types_vals">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    
+     <!-- 
+    <string-array name="motor_port_key">
+        <item>@string/motorA</item>
+        <item>@string/motorB</item>
+        <item>@string/motorC</item>
+    </string-array>
+    -->
+     <string-array name="motor_port_key">
+        <item>@string/none</item>
+        <item>@string/motorA</item>
+        <item>@string/motorB</item>
+        <item>@string/motorC</item>
+    </string-array>
+    
+    <string-array name="motor_port_value">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    
+    <string-array name="sensor_port_key">
+        <item>@string/none</item>
+        <item>@string/port_0</item>
+        <item>@string/port_1</item>
+        <item>@string/port_2</item>
+        <item>@string/port_3</item>
+    </string-array>
+    
+    <string-array name="sensor_port_value">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    
+    
+    <string-array name="sensor_mode_key">
+        <item>@string/none</item>
+        <item>@string/mode_touch</item>
+        <item>@string/mode_light</item>
+        <item>@string/mode_lowspeed</item>
+        <item>@string/mode_lowspeed9v</item>
+    </string-array>
+    
+    <string-array name="sensor_mode_value">
+        <item>-1</item>
+        <item>0x01</item>
+        <item>0x05</item>
+        <item>0x0A</item>
+        <item>0x0B</item>
+    </string-array>
+    
+    
+</resources>

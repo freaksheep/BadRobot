@@ -1,0 +1,103 @@
+<resources>
+    
+     <!-- badRobot Custom -->
+    
+    <string name="pref_title_bt_initmode">Ask user for Bluetooth initialization</string>
+    <string name="pref_bt_summary">User will be asked to enable the blueetooth service, if denies it, the app will finish. If this is disabled, the app will handle the bluetooth by its own</string>
+    
+    
+    
+        <!-- Layout settings -->
+    <string name="layout_types">Select Controller type</string>
+    <string name="acc_only_mode">Accelerometer</string>
+    <string name="buttons_only_mode">Buttons</string>
+    <string name="mix_mode">Mix Mode</string>
+    
+    
+    
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    
+       <string name="category_sensor">Sensors</string>
+    <string name="category_motor">Motors</string>
+    <string name="category_sensor_mode">Sensor modes</string>
+    
+    <string name="motor_left">Left Moto</string>
+    <string name="motor_right">Right Motor</string>
+    <string name="motor_aux">Auxiliar Motor</string>
+    
+    
+    <string name="sensor_0">Sensor 1</string>
+    <string name="sensor_1">Sensor 2</string>
+    <string name="sensor_2">Sensor 3</string>
+    <string name="sensor_3">Sensor 4</string>
+
+    <string name="port_0">Port 1</string>
+    <string name="port_1">Port 2</string>
+    <string name="port_2">Port 3</string>
+    
+    <string name="motorA">Motor A</string>
+    <string name="motorB">Motor B</string>
+    <string name="motorC">Motor C</string>
+    
+    <string name="motor_port_A">Port A</string>
+    <string name="motor_port_B">Port B</string>
+    <string name="motor_port_C">Port C</string>
+    
+    <string name="mode_touch">Touch</string>
+    <string name="mode_light">Light</string>
+    <string name="mode_lowspeed">Lowspeed</string>
+    <string name="mode_lowspeed9v">Lowspeed 9V</string>
+
+</resources>
